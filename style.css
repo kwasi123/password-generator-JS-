@@ -1,0 +1,83 @@
+:root {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(101, 67, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container {
+    background-color: white;
+    padding: 1.5em 2.5em;
+}
+
+.heading {
+    background-color: rgb(210, 210, 210);
+    margin-bottom: 2em;
+    padding: 0.5em;
+    color: rgb(88, 37, 37);
+}
+
+.title {
+    margin-bottom: 0.5em;
+}
+
+label, .input {
+    margin-bottom: 0.5em;
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    display: block;
+    width: 150px;
+    height: 35px;
+}
+
+.input:invalid {
+    border: 1px solid rgb(201, 44, 44);
+}
+
+.input:valid {
+    border: 1px solid rgb(68, 208, 68);
+}
+
+small {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.btn {
+    background-color: rgb(18, 18, 216);
+    color: rgb(210, 210, 210);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2em;
+}
+
+.passwd-txt {
+    display: none;
+}
+
+.password {
+    display: none;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(50, 36, 36);
+    color: white;
+    padding: 0.7em 1em;
+    font-size: 1.2rem;
+}
